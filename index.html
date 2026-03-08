@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal Portfolio of Ahenkorah Listowel - Economics Professional" />
+
+  <title>Ahenkorah Listowel | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress"></div>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <div class="logo">Ahenkorah.</div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <h1>Hi, I'm <span class="accent"> Ahenkorah Listowel </span></h1>
+      <h2 class="typing" aria-label="Professional title"></h2>
+      <p>I manage business from the ground up onto professional center stages.</p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contacts" class="btn secondary">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <img src="assets/images/profile.jpg" alt=" portrait" loading="lazy" />
+      <div>
+        <h2>About Me</h2>
+        <p>
+         I am an Economics professional with a strong foundation in marketing,
+         market behavior and politics, business management skills and translating
+          complex economic insights into informed decision making.
+        
+        </p>
+<br>
+
+        <a href="#" class="btn primary">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" class="section dark">
+    <div class="container">
+      <h2>Skills</h2>
+
+      <div class="skills-list">
+        <div class="skill">
+          <span>Marketing</span>
+          <div class="progress"><div data-progress="3"></div></div>
+        </div>
+        <div class="skill">
+          <span>Politics</span>
+          <div class="progress"><div data-progress="1"></div></div>
+        </div>
+        <div class="skill">
+          <span>Business Management Skills</span>
+          <div class="progress"><div data-progress="2"></div></div>
+        </div>
+        <div class="skill">
+          <span>Accounting Skills</span>
+          <div class="progress"><div data-progress="4"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="assets/images/project1.jpg" alt="Dashboard project" loading="lazy" />
+          <h3>Analytics Dashboard</h3>
+          <p>Responsive dashboard with charts, filters, and dark mode.</p>
+          <span class="tech">HTML • CSS • JavaScript</span>
+          <div class="project-links">
+            <a href="#">Anime</a>
+            <a href="#">Manga</a>
+          </div>
+        </article>
+
+
+<article class="project-card">
+          <img src="assets/images/project2.jpg" alt="Portfolio website" loading="lazy" />
+          <h3>Business Assets</h3>
+          <p>Personal portfolio with animations and accessibility focus.</p>
+          <span class="tech">HTML • CSS • JS</span>
+          <div class="project-links">
+            <a href="#">Anime</a>
+            <a href="#">Manga</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section id="experience" class="section dark">
+    <div class="container">
+      <h2>Experience</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Senior Business Manager</h3>
+          <span>Bristol Inc. • 2026 – Future</span>
+          <p>Led the growth of a company from the ground up in my dreams and yet to do that in real life.</p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>BSc Economics</h3>
+          <span>University of Energy and Natural Resources (UENR) • 2024 – 2028</span>
+          <p>Focused on building something better in the near future until then anime and manga.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+
+      <form id="contactForm" novalidate>
+        <input type="text" id="name" placeholder="Your name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+        <p id="formMessage" role="alert"></p>
+      </form>
+
+      <div class="social-links">
+        <a href="@malcomello" aria-label="Instagram">Instagram</a>
+        <a href="@malco_mello" aria-label="Snapchat">Snapchat</a>
+        <a href="@ListowelAhenko5" aria-label="X">X</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>© 2026 Ahenkorah Listowel. All rights reserved.</p>
+    <button id="backToTop" aria-label="Back to top">↑ Back To Top</button>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
